@@ -81,6 +81,17 @@ iframe {
     top: 200px;
 }
 
+#bg {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Poppins';
@@ -167,6 +178,7 @@ h2 {
     cursor: pointer;
     transition: 300ms;
     font-size: 16px;
+    -webkit-user-select: auto;
 }
 
 .play:hover {
