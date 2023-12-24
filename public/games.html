@@ -22,11 +22,21 @@
     </ul>
   </nav>
   <div class="main-content">
-    <div class="banner">
-      <h1 class="rainbow">Skool Hub</h1>
-      <a href="games.html" target="_parent"><button class="play">Play Games</button></a>
+    <h2>Games</h2>
+    <hr>
+    <div class="input-div">
+      <input type="text" placeholder="search" id="search-input">
+    </div>
+    <div class="games-container" id="gameList">
+      <a href="/game.html?id=among-us">
+        <div class="game-card">
+          <img class="game-image" src="assets/images/amongus.png" alt="game">
+          <p class="title">Among Us</p>
+        </div>
+      </a>
     </div>
   </div>
 </body>
+<script src="./Assets/JS/search.js"></script>
 
 </html>
