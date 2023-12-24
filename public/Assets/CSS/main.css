@@ -1,0 +1,64 @@
+a:hover {
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+}
+
+/* Proxy */
+iframe {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#iframeid {
+    width: 100%;
+    height: 100vh;
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.proxynav {
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 50px;
+    background-color: #efefef;
+    height: 50px;
+    width: 150px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: 1s ease;
+}
+
+.proxynav ul {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proxynav ul button {
+    aspect-ratio: 1 / 1;
+    height: 25px;
+    border: none;
+    background: none;
+}
+
+.proxynav ul button i {
+    aspect-ratio: 1 / 1;
+}
