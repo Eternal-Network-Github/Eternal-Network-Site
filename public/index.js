@@ -33,6 +33,6 @@ form.addEventListener("submit", async (event) => {
 
     const url = search(address.value, searchEngine.value);
     sessionStorage.setItem("encodedUrl", __uv$config.encodeUrl(url));
-    location.href = "/proxy.html"
+    location.href = "./eternal-proxy.html"
     // location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
 });
